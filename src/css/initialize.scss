@@ -1,0 +1,62 @@
+/**
+ * custom reset.css
+ * author: CodeDreamfy
+ * update: 29/05/2019
+ */
+
+html,
+body,
+#app,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  font: 16px/1.7
+  /*中文*/
+  "Microsoft YaHei", "Source Han Sans CN", SimSun, sans-serif;
+  // -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+  // user-select: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -webkit-touch-callout: none;
+  overflow: hidden;
+}
+
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #fff;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+img,
+video {
+  width: 100%;
+}
